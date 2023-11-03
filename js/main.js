@@ -12,8 +12,7 @@ const calcular = () => {
   const porcentajeCategoria = categoria.value;
   const cantidadTickets = cantidad.value;
 
-  const valorTotal = ((precioTicket * porcentajeCategoria) / 100) * cantidadTickets;
-
+  const valorTotal = (precioTicket * cantidadTickets) - ((precioTicket * cantidadTickets) * (porcentajeCategoria / 100));
   total.innerHTML = isNaN(valorTotal) ? 0 : valorTotal;
 };
 
