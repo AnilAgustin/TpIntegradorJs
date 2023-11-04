@@ -1,0 +1,111 @@
+.container-fluid{
+    padding-left: 70px;   
+}
+
+#verde{
+color: rgb(6, 180, 6);
+}
+
+#blanco{
+color: white;
+}
+
+#palabra{
+color: rgb(177, 175, 175)
+}
+
+.oradores{
+font-size: 15px;
+text-align: center;
+}
+
+h1{
+font-size: 30px;
+}
+
+.row{
+display: flex;
+justify-content: center;
+text-align: justify;
+flex-wrap: wrap;
+}
+
+.card-title{
+font-size: 25px;
+}
+
+.card{
+display: flex;
+justify-content: justify;
+text-align: justify;
+flex-wrap: wrap;
+}
+
+.tarjeta{
+background-color: rgb(53, 52, 52);
+}
+
+.form{
+display: flex;
+justify-content: space-around;
+text-align: justify;
+flex-wrap: wrap;
+margin: auto;
+padding: 0px 60px 10px;
+}
+
+.form-control{
+margin: 10px;
+
+}
+
+.form-text{
+padding:  5px 20px 10px;
+}
+
+.form-btn{
+padding:  -100px 2px 10px;
+margin-left: 20px;
+display: flex;
+text-align: justify;
+flex-wrap: wrap;
+}
+
+.nav{
+background-color: rgb(11, 59, 75);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 25px;
+}
+
+.nav-link{
+color: white;
+display: flex;
+flex-wrap: wrap;
+text-align: justify;
+margin: 1px;
+padding: 20px 20px 20px;
+}
+
+#propaganda{
+  margin: 10px;
+}
+
+h5{
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+#borrar{
+  background-color: #97c93e;
+  color: white;
+}
+
+#calcular{
+  background-color: #97c93e;
+  color: white;
+} 
